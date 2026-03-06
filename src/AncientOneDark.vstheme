@@ -248,6 +248,167 @@
 				<Foreground Type="CT_RAW" Source="FF98939B" />
 			</Color>
 		</Category>
+		<Category Name="Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFFC6A9D" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF614E83" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="Type">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="Method">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Literal">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="keyword - control">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="string - verbatim">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="operator - overloaded">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="xml doc comment - delimiter">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="xml doc comment - text">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="xml doc comment - name">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="xml doc comment - attribute name">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="xml doc comment - attribute value">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+		</Category>
+		<Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF2B203F" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFFC6A9D" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
 			<Color Name="ToolWindowBackground">
 				<Background Type="CT_RAW" Source="FF1D142E" />
@@ -562,6 +723,167 @@
 				<Foreground Type="CT_RAW" Source="FF9793B5" />
 			</Color>
 		</Category>
+		<Category Name="Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF645A7C" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFB5A5D4" />
+			</Color>
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FFC884FF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="Type">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="Method">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Literal">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="keyword - control">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="string - verbatim">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="operator - overloaded">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="xml doc comment - delimiter">
+				<Foreground Type="CT_RAW" Source="FF6B6490" />
+			</Color>
+			<Color Name="xml doc comment - text">
+				<Foreground Type="CT_RAW" Source="FF6B6490" />
+			</Color>
+			<Color Name="xml doc comment - name">
+				<Foreground Type="CT_RAW" Source="FF6B6490" />
+			</Color>
+			<Color Name="xml doc comment - attribute name">
+				<Foreground Type="CT_RAW" Source="FF6B6490" />
+			</Color>
+			<Color Name="xml doc comment - attribute value">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+		</Category>
+		<Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF241E3D" />
+				<Foreground Type="CT_RAW" Source="FFBDB6CC" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF6B6490" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFFF6B9D" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFBDB6CC" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
 			<Color Name="ToolWindowBackground">
 				<Background Type="CT_RAW" Source="FF19152A" />
@@ -874,6 +1196,167 @@
 			</Color>
 			<Color Name="ReSharper C# Braces">
 				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+		</Category>
+		<Category Name="Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFCA616F" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF4C4A53" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFB5A5D4" />
+			</Color>
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="Type">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="Method">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Literal">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="keyword - control">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="string - verbatim">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="operator - overloaded">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="xml doc comment - delimiter">
+				<Foreground Type="CT_RAW" Source="FF6A6A6A" />
+			</Color>
+			<Color Name="xml doc comment - text">
+				<Foreground Type="CT_RAW" Source="FF6A6A6A" />
+			</Color>
+			<Color Name="xml doc comment - name">
+				<Foreground Type="CT_RAW" Source="FF6A6A6A" />
+			</Color>
+			<Color Name="xml doc comment - attribute name">
+				<Foreground Type="CT_RAW" Source="FF6A6A6A" />
+			</Color>
+			<Color Name="xml doc comment - attribute value">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+		</Category>
+		<Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF1C1C1D" />
+				<Foreground Type="CT_RAW" Source="FFB0ACB8" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF6A6A6A" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFD48E72" />
+			</Color>
+			<Color Name="Identifier">
+				<Foreground Type="CT_RAW" Source="FFB0ACB8" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
 			</Color>
 		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">

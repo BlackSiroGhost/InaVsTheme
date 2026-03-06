@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="InaVsTheme.f0a1b2c3-d4e5-6789-abcd-ef0123456789" Version="1.5.0" Language="en-US" Publisher="BlackSiroGhost" />
+        <Identity Id="InaVsTheme.f0a1b2c3-d4e5-6789-abcd-ef0123456789" Version="1.7.0" Language="en-US" Publisher="BlackSiroGhost" />
         <DisplayName>Ancient One Dark Theme</DisplayName>
         <Description xml:space="preserve">Ninomae Ina'nis color themes for Visual Studio — based on Ancient One Dark by sigvt. Includes Dark, Violet, and Slate variants.</Description>
         <MoreInfo>https://github.com/BlackSiroGhost/InaVsTheme</MoreInfo>

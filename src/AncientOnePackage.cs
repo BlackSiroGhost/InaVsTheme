@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell.Interop;
 using Task = System.Threading.Tasks.Task;
 
 namespace InaVsTheme
@@ -24,12 +25,12 @@ namespace InaVsTheme
         private const int CmdIdDarkViolet = 0x0101;
         private const int CmdIdDarkSlate = 0x0102;
 
-        // VS 2026 uses string slugs for theme identification
+        // VS 2026 uses GUID-based slugs for extension themes
         private static readonly (int cmdId, string themeSlug)[] Themes = new[]
         {
-            (CmdIdDark,       "ancient-one-dark"),
-            (CmdIdDarkViolet, "ancient-one-dark-violet"),
-            (CmdIdDarkSlate,  "ancient-one-dark-slate"),
+            (CmdIdDark,       "{6e3a4f5b-8c2d-4a91-b7e0-1f9d3c5a2b80}"),
+            (CmdIdDarkViolet, "{7f4b5a6c-9d3e-4b02-c8f1-2a0e4d6b3c91}"),
+            (CmdIdDarkSlate,  "{8a5c6b7d-0e4f-4c13-d902-3b1f5e7c4da2}"),
         };
 
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
@@ -77,6 +78,46 @@ namespace InaVsTheme
             }
 
             File.WriteAllText(settingsPath, content);
+
+            ClearFontAndColorCaches();
+        }
+
+        private void ClearFontAndColorCaches()
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            var cacheManager = GetService(typeof(SVsFontAndColorCacheManager)) as IVsFontAndColorCacheManager;
+            if (cacheManager != null)
+            {
+                cacheManager.ClearAllCaches();
+            }
+
+            var storage = GetService(typeof(SVsFontAndColorStorage)) as IVsFontAndColorStorage;
+            if (storage != null)
+            {
+                // Text Editor category
+                var textEditorCategory = new Guid("{A27B4E24-A735-4d1d-B8E7-9716E1E3D8E0}");
+                // Output Window category
+                var outputWindowCategory = new Guid("{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}");
+
+                // FCSF_LOADDEFAULTS (0x2) | FCSF_PROPAGATECHANGES (0x8)
+                const uint flags = 0x2 | 0x8;
+
+                var categories = new[] { textEditorCategory, outputWindowCategory };
+                for (int i = 0; i < categories.Length; i++)
+                {
+                    var cat = categories[i];
+                    if (storage.OpenCategory(ref cat, flags) == 0)
+                    {
+                        storage.CloseCategory();
+                    }
+                }
+            }
+
+            if (cacheManager != null)
+            {
+                cacheManager.ClearAllCaches();
+            }
         }
 
         private string GetSettingsJsonPath()
