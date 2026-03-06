@@ -7,3 +7,14 @@ obj/
 *.cache
 *.vsix
 packages/
+
+## Build artifacts (extracted VSIX)
+/*.dll
+/*.pkgdef
+/*.xml
+/catalog.json
+/manifest.json
+/extension.vsixmanifest
+/[Content_Types].xml
+/Resources/
+/System.Text.Encodings.Web.dll

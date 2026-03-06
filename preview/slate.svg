@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .code { font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace; font-size: 13px; }
+      .ln { font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace; font-size: 13px; fill: #444446; }
+      .tab-font { font-family: 'Segoe UI', sans-serif; font-size: 12px; }
+      .title-font { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #757578; }
+    </style>
+    <clipPath id="rounded"><rect width="820" height="520" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <!-- Title bar -->
+    <rect width="820" height="32" fill="#141414"/>
+    <text x="370" y="21" text-anchor="middle" class="title-font">ThemeEngine.cs — Ancient One Dark Slate</text>
+    <!-- Window controls -->
+    <circle cx="16" cy="16" r="5.5" fill="#FF5F57" opacity="0.85"/>
+    <circle cx="34" cy="16" r="5.5" fill="#FEBC2E" opacity="0.85"/>
+    <circle cx="52" cy="16" r="5.5" fill="#28C840" opacity="0.85"/>
+    <!-- Tab bar -->
+    <rect y="32" width="820" height="30" fill="#181819"/>
+    <rect y="32" width="180" height="30" fill="#1C1C1D"/>
+    <rect y="32" width="180" height="2" fill="#6B71C4"/>
+    <text x="34" y="52" class="tab-font" fill="#B0ACB8">ThemeEngine.cs</text>
+    <text x="200" y="52" class="tab-font" fill="#555558">Program.cs</text>
+    <!-- Editor background -->
+    <rect y="62" width="820" height="458" fill="#1C1C1D"/>
+    <!-- Line number gutter -->
+    <rect y="62" width="48" height="458" fill="#181819"/>
+    <!-- Active line highlight -->
+    <rect x="48" y="248" width="772" height="19" fill="#252527" opacity="0.6"/>
+    <!-- Line numbers -->
+    <text x="38" y="86" text-anchor="end" class="ln">1</text>
+    <text x="38" y="105" text-anchor="end" class="ln">2</text>
+    <text x="38" y="124" text-anchor="end" class="ln">3</text>
+    <text x="38" y="143" text-anchor="end" class="ln">4</text>
+    <text x="38" y="162" text-anchor="end" class="ln">5</text>
+    <text x="38" y="181" text-anchor="end" class="ln">6</text>
+    <text x="38" y="200" text-anchor="end" class="ln">7</text>
+    <text x="38" y="219" text-anchor="end" class="ln">8</text>
+    <text x="38" y="238" text-anchor="end" class="ln">9</text>
+    <text x="38" y="257" text-anchor="end" class="ln">10</text>
+    <text x="38" y="276" text-anchor="end" class="ln">11</text>
+    <text x="38" y="295" text-anchor="end" class="ln">12</text>
+    <text x="38" y="314" text-anchor="end" class="ln">13</text>
+    <text x="38" y="333" text-anchor="end" class="ln">14</text>
+    <text x="38" y="352" text-anchor="end" class="ln">15</text>
+    <text x="38" y="371" text-anchor="end" class="ln">16</text>
+    <text x="38" y="390" text-anchor="end" class="ln">17</text>
+    <text x="38" y="409" text-anchor="end" class="ln">18</text>
+    <text x="38" y="428" text-anchor="end" class="ln">19</text>
+    <text x="38" y="447" text-anchor="end" class="ln">20</text>
+    <!-- Code: line 1 — namespace -->
+    <text x="62" y="86" class="code" fill="#BFBBCD">namespace</text>
+    <text x="142" y="86" class="code" fill="#B0ACB8"> AncientOne</text>
+    <!-- line 2 — { -->
+    <text x="62" y="105" class="code" fill="#B0ACB8">{</text>
+    <!-- line 3 — class -->
+    <text x="78" y="124" class="code" fill="#BFBBCD">public</text>
+    <text x="126" y="124" class="code" fill="#BFBBCD"> class</text>
+    <text x="174" y="124" class="code" fill="#6EACE5"> ThemeEngine</text>
+    <!-- line 4 — { -->
+    <text x="78" y="143" class="code" fill="#B0ACB8">{</text>
+    <!-- line 5 — field string -->
+    <text x="94" y="162" class="code" fill="#BFBBCD">private</text>
+    <text x="150" y="162" class="code" fill="#BFBBCD"> readonly</text>
+    <text x="222" y="162" class="code" fill="#6EACE5"> string</text>
+    <text x="270" y="162" class="code" fill="#9D8EFF"> _name</text>
+    <text x="310" y="162" class="code" fill="#B0ACB8">;</text>
+    <!-- line 6 — field int -->
+    <text x="94" y="181" class="code" fill="#BFBBCD">private</text>
+    <text x="150" y="181" class="code" fill="#6EACE5"> int</text>
+    <text x="182" y="181" class="code" fill="#9D8EFF"> _brightness</text>
+    <text x="286" y="181" class="code" fill="#B0ACB8"> = </text>
+    <text x="306" y="181" class="code" fill="#D48E72">42</text>
+    <text x="322" y="181" class="code" fill="#B0ACB8">;</text>
+    <!-- line 7 — blank -->
+    <!-- line 8 — xml comment -->
+    <text x="94" y="219" class="code" fill="#6A6A6A">/// &lt;summary&gt;Applies the color scheme.&lt;/summary&gt;</text>
+    <!-- line 9 — method sig -->
+    <text x="94" y="238" class="code" fill="#BFBBCD">public</text>
+    <text x="142" y="238" class="code" fill="#BFBBCD"> void</text>
+    <text x="182" y="238" class="code" fill="#C776DD"> ApplyTheme</text>
+    <text x="278" y="238" class="code" fill="#B0ACB8">(</text>
+    <text x="286" y="238" class="code" fill="#6EACE5">Color</text>
+    <text x="326" y="238" class="code" fill="#B0ACB8"> accent</text>
+    <text x="374" y="238" class="code" fill="#B0ACB8">)</text>
+    <!-- line 10 — { -->
+    <text x="94" y="257" class="code" fill="#B0ACB8">{</text>
+    <!-- line 11 — if -->
+    <text x="110" y="276" class="code" fill="#BFBBCD">if</text>
+    <text x="126" y="276" class="code" fill="#B0ACB8"> (accent.</text>
+    <text x="190" y="276" class="code" fill="#9D8EFF">IsValid</text>
+    <text x="246" y="276" class="code" fill="#B0ACB8">)</text>
+    <!-- line 12 — { -->
+    <text x="110" y="295" class="code" fill="#B0ACB8">{</text>
+    <!-- line 13 — Console.WriteLine -->
+    <text x="126" y="314" class="code" fill="#6EACE5">Console</text>
+    <text x="182" y="314" class="code" fill="#B0ACB8">.</text>
+    <text x="190" y="314" class="code" fill="#C776DD">WriteLine</text>
+    <text x="262" y="314" class="code" fill="#B0ACB8">(</text>
+    <text x="270" y="314" class="code" fill="#C9A974">$"Loading </text>
+    <text x="358" y="314" class="code" fill="#B0ACB8">{_name}</text>
+    <text x="414" y="314" class="code" fill="#C9A974">..."</text>
+    <text x="446" y="314" class="code" fill="#B0ACB8">);</text>
+    <!-- line 14 — SetPalette -->
+    <text x="126" y="333" class="code" fill="#C776DD">SetPalette</text>
+    <text x="214" y="333" class="code" fill="#B0ACB8">(accent, </text>
+    <text x="286" y="333" class="code" fill="#9D8EFF">_brightness</text>
+    <text x="374" y="333" class="code" fill="#B0ACB8">);</text>
+    <!-- line 15 — } -->
+    <text x="110" y="352" class="code" fill="#B0ACB8">}</text>
+    <!-- line 16 — } -->
+    <text x="94" y="371" class="code" fill="#B0ACB8">}</text>
+    <!-- line 17 — } -->
+    <text x="78" y="390" class="code" fill="#B0ACB8">}</text>
+    <!-- line 18 — } -->
+    <text x="62" y="409" class="code" fill="#B0ACB8">}</text>
+    <!-- Bottom status bar -->
+    <rect y="490" width="820" height="30" fill="#141414"/>
+    <rect y="490" width="820" height="1" fill="#6B71C4" opacity="0.6"/>
+    <text x="12" y="510" class="tab-font" fill="#757578">Ln 10, Col 9</text>
+    <text x="720" y="510" class="tab-font" fill="#757578">UTF-8</text>
+  </g>
+</svg>
