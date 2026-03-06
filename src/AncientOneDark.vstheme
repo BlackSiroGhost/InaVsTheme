@@ -3,6 +3,7 @@
 	<!-- ============================================================ -->
 	<!-- Ancient One Dark                                             -->
 	<!-- Deep purple with gold accents                                -->
+	<!-- Full theme: shell chrome + syntax highlighting               -->
 	<!-- ============================================================ -->
 	<Theme Name="Ancient One Dark" GUID="{6e3a4f5b-8c2d-4a91-b7e0-1f9d3c5a2b80}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
 
@@ -10,6 +11,241 @@
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF2B203F" />
 				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="String (C# @ Verbatim)">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFFC6A9D" />
+			</Color>
+			<Color Name="User Types">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="User Types (Enums)">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="User Types (Interfaces)">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="User Types (Delegates)">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="User Types (Value types)">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF614E83" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+
+			<!-- Roslyn classification items -->
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+
+			<!-- ReSharper overrides -->
+			<Color Name="ReSharper C# Keyword">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="ReSharper C# String">
+				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
+			</Color>
+			<Color Name="ReSharper C# Number">
+				<Foreground Type="CT_RAW" Source="FFFC6A9D" />
+			</Color>
+			<Color Name="ReSharper C# Line Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="ReSharper C# Block Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="ReSharper C# Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF73688D" />
+			</Color>
+			<Color Name="ReSharper C# Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="ReSharper C# Static Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="ReSharper C# Extension Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="ReSharper C# Accessor Identifier">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="ReSharper C# Local Function Identifier">
+				<Foreground Type="CT_RAW" Source="FFE678E8" />
+			</Color>
+			<Color Name="ReSharper C# Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Static Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Record Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Record Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Interface Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Enum Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Delegate Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Type Parameter Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Namespace Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Alias Identifier">
+				<Foreground Type="CT_RAW" Source="FF5AA1DB" />
+			</Color>
+			<Color Name="ReSharper C# Constant Identifier">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="ReSharper C# Field Identifier">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="ReSharper C# Static Field Identifier">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="ReSharper C# Property Identifier">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="ReSharper C# Static Property Identifier">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="ReSharper C# Event Identifier">
+				<Foreground Type="CT_RAW" Source="FFC07CFF" />
+			</Color>
+			<Color Name="ReSharper C# Late Bound Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Operator Sign">
+				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 1">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 2">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Dot">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Comma">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Semicolon">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Parentheses">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Brackets">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Braces">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
 			</Color>
 		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
@@ -81,6 +317,7 @@
 	<!-- ============================================================ -->
 	<!-- Ancient One Dark Violet                                      -->
 	<!-- Deeper indigo-purple with warm gold accents                  -->
+	<!-- Full theme: shell chrome + syntax highlighting               -->
 	<!-- ============================================================ -->
 	<Theme Name="Ancient One Dark Violet" GUID="{7f4b5a6c-9d3e-4b02-c8f1-2a0e4d6b3c91}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
 
@@ -88,6 +325,241 @@
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF241E3D" />
 				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="String (C# @ Verbatim)">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="User Types">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="User Types (Enums)">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="User Types (Interfaces)">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="User Types (Delegates)">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="User Types (Value types)">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF645A7C" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFB5A5D4" />
+			</Color>
+
+			<!-- Roslyn classification items -->
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FFC884FF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+
+			<!-- ReSharper overrides -->
+			<Color Name="ReSharper C# Keyword">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="ReSharper C# String">
+				<Foreground Type="CT_RAW" Source="FFDDB672" />
+			</Color>
+			<Color Name="ReSharper C# Number">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="ReSharper C# Line Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="ReSharper C# Block Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="ReSharper C# Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF7F729C" />
+			</Color>
+			<Color Name="ReSharper C# Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="ReSharper C# Static Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="ReSharper C# Extension Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="ReSharper C# Accessor Identifier">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="ReSharper C# Local Function Identifier">
+				<Foreground Type="CT_RAW" Source="FFFE719E" />
+			</Color>
+			<Color Name="ReSharper C# Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Static Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Record Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Record Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Interface Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Enum Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Delegate Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Type Parameter Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Namespace Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Alias Identifier">
+				<Foreground Type="CT_RAW" Source="FF75BCFF" />
+			</Color>
+			<Color Name="ReSharper C# Constant Identifier">
+				<Foreground Type="CT_RAW" Source="FFF8A066" />
+			</Color>
+			<Color Name="ReSharper C# Field Identifier">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="ReSharper C# Static Field Identifier">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="ReSharper C# Property Identifier">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="ReSharper C# Static Property Identifier">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="ReSharper C# Event Identifier">
+				<Foreground Type="CT_RAW" Source="FFD6D6EB" />
+			</Color>
+			<Color Name="ReSharper C# Late Bound Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Operator Sign">
+				<Foreground Type="CT_RAW" Source="FF8087EE" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 1">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 2">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Dot">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="ReSharper C# Comma">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="ReSharper C# Semicolon">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="ReSharper C# Parentheses">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="ReSharper C# Brackets">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
+			</Color>
+			<Color Name="ReSharper C# Braces">
+				<Foreground Type="CT_RAW" Source="FF9793B5" />
 			</Color>
 		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
@@ -159,6 +631,7 @@
 	<!-- ============================================================ -->
 	<!-- Ancient One Dark Slate                                       -->
 	<!-- Neutral dark with indigo accents                             -->
+	<!-- Full theme: shell chrome + syntax highlighting               -->
 	<!-- ============================================================ -->
 	<Theme Name="Ancient One Dark Slate" GUID="{8a5c6b7d-0e4f-4c13-d902-3b1f5e7c4da2}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
 
@@ -166,6 +639,241 @@
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF1C1C1D" />
 				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="Operator">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="String">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="String (C# @ Verbatim)">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="Number">
+				<Foreground Type="CT_RAW" Source="FFCA616F" />
+			</Color>
+			<Color Name="User Types">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="User Types (Enums)">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="User Types (Interfaces)">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="User Types (Delegates)">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="User Types (Value types)">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="Preprocessor Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="Excluded Code">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="XML Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="XML Doc Tag">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="Line Number">
+				<Foreground Type="CT_RAW" Source="FF4C4A53" />
+			</Color>
+			<Color Name="urlformat">
+				<Foreground Type="CT_RAW" Source="FFB5A5D4" />
+			</Color>
+
+			<!-- Roslyn classification items -->
+			<Color Name="class name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="record class name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="struct name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="record struct name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="interface name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="enum name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="delegate name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="module name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="type parameter name">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="method name">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="extension method name">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="field name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="property name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="event name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="local name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="parameter name">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="namespace name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="constant name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="enum member name">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="label name">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="punctuation">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="string - escape character">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+
+			<!-- ReSharper overrides -->
+			<Color Name="ReSharper C# Keyword">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="ReSharper C# String">
+				<Foreground Type="CT_RAW" Source="FFC9A974" />
+			</Color>
+			<Color Name="ReSharper C# Number">
+				<Foreground Type="CT_RAW" Source="FFCA616F" />
+			</Color>
+			<Color Name="ReSharper C# Line Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="ReSharper C# Block Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="ReSharper C# Doc Comment">
+				<Foreground Type="CT_RAW" Source="FF797782" />
+			</Color>
+			<Color Name="ReSharper C# Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="ReSharper C# Static Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="ReSharper C# Extension Method Identifier">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="ReSharper C# Accessor Identifier">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="ReSharper C# Local Function Identifier">
+				<Foreground Type="CT_RAW" Source="FFC776DD" />
+			</Color>
+			<Color Name="ReSharper C# Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Static Class Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Record Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Record Struct Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Interface Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Enum Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Delegate Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Type Parameter Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Namespace Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Alias Identifier">
+				<Foreground Type="CT_RAW" Source="FF6EACE5" />
+			</Color>
+			<Color Name="ReSharper C# Constant Identifier">
+				<Foreground Type="CT_RAW" Source="FFB573B4" />
+			</Color>
+			<Color Name="ReSharper C# Field Identifier">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="ReSharper C# Static Field Identifier">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="ReSharper C# Property Identifier">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="ReSharper C# Static Property Identifier">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="ReSharper C# Event Identifier">
+				<Foreground Type="CT_RAW" Source="FF9D8EFF" />
+			</Color>
+			<Color Name="ReSharper C# Late Bound Identifier">
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+			<Color Name="ReSharper C# Operator Sign">
+				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 1">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Escape Character 2">
+				<Foreground Type="CT_RAW" Source="FFBBA5D4" />
+			</Color>
+			<Color Name="ReSharper C# Dot">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Comma">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Semicolon">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Parentheses">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Brackets">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
+			</Color>
+			<Color Name="ReSharper C# Braces">
+				<Foreground Type="CT_RAW" Source="FF98939B" />
 			</Color>
 		</Category>
 		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
