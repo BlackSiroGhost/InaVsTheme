@@ -1,0 +1,237 @@
+<Themes>
+
+	<!-- ============================================================ -->
+	<!-- Ancient One Dark                                             -->
+	<!-- Deep purple with gold accents                                -->
+	<!-- ============================================================ -->
+	<Theme Name="Ancient One Dark" GUID="{6e3a4f5b-8c2d-4a91-b7e0-1f9d3c5a2b80}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+
+		<Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF2B203F" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="ToolWindowBackground">
+				<Background Type="CT_RAW" Source="FF1D142E" />
+			</Color>
+		</Category>
+		<Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+			<Color Name="Caption">
+				<Background Type="CT_RAW" Source="FF1D142E" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Output Window" GUID="{9973efdf-317d-431c-8bc1-5e88cbfd4f7f}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF1D142E" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
+			<Color Name="Background">
+				<Background Type="CT_RAW" Source="FF1D142E" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FFF4BA51" />
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="E5F4BA51" />
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="CCF4BA51" />
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FF2B2027" />
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FF342C3A" />
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FF342C3A" />
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="CCFFFFFF" />
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FF1D142E" />
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FFF4BA51" />
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="60F4BA51" />
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FFF4BA51" />
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="4D000000" />
+			</Color>
+		</Category>
+	</Theme>
+
+	<!-- ============================================================ -->
+	<!-- Ancient One Dark Violet                                      -->
+	<!-- Deeper indigo-purple with warm gold accents                  -->
+	<!-- ============================================================ -->
+	<Theme Name="Ancient One Dark Violet" GUID="{7f4b5a6c-9d3e-4b02-c8f1-2a0e4d6b3c91}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+
+		<Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF241E3D" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="ToolWindowBackground">
+				<Background Type="CT_RAW" Source="FF19152A" />
+			</Color>
+		</Category>
+		<Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+			<Color Name="Caption">
+				<Background Type="CT_RAW" Source="FF19152A" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Output Window" GUID="{9973efdf-317d-431c-8bc1-5e88cbfd4f7f}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF19152A" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
+			<Color Name="Background">
+				<Background Type="CT_RAW" Source="FF19152A" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FFFDC955" />
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="E5FDC955" />
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="CCFDC955" />
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FF28202E" />
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FF312A38" />
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FF312A38" />
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="CCFFFFFF" />
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FF19152A" />
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FFFDC955" />
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="60FDC955" />
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FFFDC955" />
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="4D000000" />
+			</Color>
+		</Category>
+	</Theme>
+
+	<!-- ============================================================ -->
+	<!-- Ancient One Dark Slate                                       -->
+	<!-- Neutral dark with indigo accents                             -->
+	<!-- ============================================================ -->
+	<Theme Name="Ancient One Dark Slate" GUID="{8a5c6b7d-0e4f-4c13-d902-3b1f5e7c4da2}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+
+		<Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF1C1C1D" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="ToolWindowBackground">
+				<Background Type="CT_RAW" Source="FF141414" />
+			</Color>
+		</Category>
+		<Category Name="CommonDocument" GUID="{72eb4027-f4ae-4b6c-9cc2-dfd5b49d9415}">
+			<Color Name="Caption">
+				<Background Type="CT_RAW" Source="FF141414" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="Output Window" GUID="{9973efdf-317d-431c-8bc1-5e88cbfd4f7f}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FF141414" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+		<Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
+			<Color Name="Background">
+				<Background Type="CT_RAW" Source="FF141414" />
+				<Foreground Type="CT_RAW" Source="FFC0BBCB" />
+			</Color>
+		</Category>
+
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FF6B71C4" />
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="E56B71C4" />
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="CC6B71C4" />
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FF1E1E1E" />
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FF272727" />
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FF272727" />
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="CCFFFFFF" />
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FF141414" />
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FF6B71C4" />
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="606B71C4" />
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FF6B71C4" />
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="4D000000" />
+			</Color>
+		</Category>
+	</Theme>
+
+</Themes>
