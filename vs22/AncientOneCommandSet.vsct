@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidAncientOnePackage">
+
+    <Menus>
+      <Menu guid="guidAncientOneCommandSet" id="AncientOneSubMenu" priority="0x0100" type="Menu">
+        <Parent guid="guidAncientOneCommandSet" id="AncientOneExtMenuGroup" />
+        <Strings>
+          <ButtonText>Ancient One</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+
+    <Groups>
+      <!-- Group placed inside the Extensions top-level menu -->
+      <Group guid="guidAncientOneCommandSet" id="AncientOneExtMenuGroup" priority="0x0900">
+        <Parent guid="guidVsMainMenu" id="IDM_VS_MENU_EXTENSIONS" />
+      </Group>
+      <Group guid="guidAncientOneCommandSet" id="AncientOneMenuGroup" priority="0x0600">
+        <Parent guid="guidAncientOneCommandSet" id="AncientOneSubMenu" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidAncientOneCommandSet" id="cmdidDark" priority="0x0100" type="Button">
+        <Parent guid="guidAncientOneCommandSet" id="AncientOneMenuGroup" />
+        <Strings>
+          <ButtonText>Dark</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAncientOneCommandSet" id="cmdidDarkViolet" priority="0x0200" type="Button">
+        <Parent guid="guidAncientOneCommandSet" id="AncientOneMenuGroup" />
+        <Strings>
+          <ButtonText>Dark Violet</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAncientOneCommandSet" id="cmdidDarkSlate" priority="0x0300" type="Button">
+        <Parent guid="guidAncientOneCommandSet" id="AncientOneMenuGroup" />
+        <Strings>
+          <ButtonText>Dark Slate</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidAncientOnePackage" value="{a1b2c3d4-e5f6-7890-abcd-1234567890ab}" />
+
+    <GuidSymbol name="guidAncientOneCommandSet" value="{b2c3d4e5-f6a7-8901-bcde-2345678901bc}">
+      <IDSymbol name="AncientOneExtMenuGroup" value="0x1300" />
+      <IDSymbol name="AncientOneSubMenu" value="0x1000" />
+      <IDSymbol name="AncientOneMenuGroup" value="0x1100" />
+      <IDSymbol name="cmdidDark" value="0x0100" />
+      <IDSymbol name="cmdidDarkViolet" value="0x0101" />
+      <IDSymbol name="cmdidDarkSlate" value="0x0102" />
+    </GuidSymbol>
+
+    <!-- guidSHLMainMenu with the Extensions menu ID that the VSCT compiler doesn't resolve from vsshlids.h -->
+    <GuidSymbol name="guidVsMainMenu" value="{d309f791-903f-11d0-9efc-00a0c911004f}">
+      <IDSymbol name="IDM_VS_MENU_EXTENSIONS" value="0x0091" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>

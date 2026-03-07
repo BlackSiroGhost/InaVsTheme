@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="src\InaVsTheme.csproj" />
+  <Folder Name="/vs26/">
+    <Project Path="src\InaVsTheme.csproj" />
+  </Folder>
+  <Folder Name="/vs22/">
+    <Project Path="vs22\InaVsTheme22.csproj" />
+  </Folder>
 </Solution>

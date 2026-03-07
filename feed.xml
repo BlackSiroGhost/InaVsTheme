@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title type="text">InaVsTheme</title>
-    <id>InaVsTheme.f0a1b2c3-d4e5-6789-abcd-ef0123456789</id>
+    <id>InaVsTheme</id>
     <updated>2026-03-07T00:00:00Z</updated>
+
+    <!-- VS 2026 extension -->
     <entry>
         <id>InaVsTheme.f0a1b2c3-d4e5-6789-abcd-ef0123456789</id>
-        <title type="text">Ancient One Dark Theme</title>
-        <summary type="text">Ninomae Ina'nis color themes for Visual Studio</summary>
+        <title type="text">Ancient One Dark Theme (VS 2026)</title>
+        <summary type="text">Ninomae Ina'nis color themes for Visual Studio 2026</summary>
         <published>2026-03-06T00:00:00Z</published>
         <updated>2026-03-07T00:00:00Z</updated>
         <author>
             <name>BlackSiroGhost</name>
         </author>
-        <content type="application/octet-stream" src="https://github.com/BlackSiroGhost/InaVsTheme/releases/download/v1.7.0/InaVsTheme.vsix" />
+        <content type="application/octet-stream" src="https://github.com/BlackSiroGhost/InaVsTheme/releases/download/v1.8.0/InaVsTheme.vsix" />
         <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Id>InaVsTheme.f0a1b2c3-d4e5-6789-abcd-ef0123456789</Id>
             <Version>1.7.0</Version>
+        </Vsix>
+    </entry>
+
+    <!-- VS 2022 extension -->
+    <entry>
+        <id>InaVsTheme22.f0a1b2c3-d4e5-6789-abcd-ef0123456789</id>
+        <title type="text">Ancient One Dark Theme (VS 2022)</title>
+        <summary type="text">Ninomae Ina'nis color themes for Visual Studio 2022</summary>
+        <published>2026-03-07T00:00:00Z</published>
+        <updated>2026-03-07T00:00:00Z</updated>
+        <author>
+            <name>BlackSiroGhost</name>
+        </author>
+        <content type="application/octet-stream" src="https://github.com/BlackSiroGhost/InaVsTheme/releases/download/v1.8.0/InaVsTheme-VS2022.vsix" />
+        <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Id>InaVsTheme22.f0a1b2c3-d4e5-6789-abcd-ef0123456789</Id>
+            <Version>1.0.0</Version>
         </Vsix>
     </entry>
 </feed>
