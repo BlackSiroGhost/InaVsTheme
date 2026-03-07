@@ -6,7 +6,7 @@
 
 **Ninomae Ina'nis inspired color themes for Visual Studio 2022 / 2026**
 
-[![Version](https://img.shields.io/badge/version-1.7.0-7c4dff?style=for-the-badge)](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.8.0-7c4dff?style=for-the-badge)](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest)
 [![VS 2022+](https://img.shields.io/badge/Visual%20Studio-2022%20%7C%202026-5c2d91?style=for-the-badge&logo=visualstudio&logoColor=white)](https://visualstudio.microsoft.com/)
 [![License](https://img.shields.io/badge/license-MIT-f4ba51?style=for-the-badge)](LICENSE.txt)
 
@@ -117,26 +117,40 @@
 - **Full shell theming** — title bar, tool windows, menus, tabs, scrollbars
 - **Complete syntax highlighting** — Roslyn, Language Service, Text Manager, and ReSharper override categories
 - **In-app switching** — change themes from **Extensions > Ancient One** without restarting
-- **VS 2022 & 2026** — supports Visual Studio 17.9 through 19.0
+- **VS 2022 & 2026** — separate VSIX for each version
 
 ## Installation
 
 ### From Release
 
-1. Download the latest `.vsix` from [**Releases**](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest)
-2. Double-click the `.vsix` — the VS installer handles the rest
-3. Restart Visual Studio
-4. Switch themes via **Extensions > Ancient One** or **Tools > Theme**
+Download the correct `.vsix` for your Visual Studio version from [**Releases**](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest):
+
+| File | Visual Studio Version |
+|------|-----------------------|
+| `InaVsTheme.vsix` | **VS 2026** (18.x) |
+| `InaVsTheme-VS2022.vsix` | **VS 2022** (17.9+) |
+
+1. Download **only** the `.vsix` matching your Visual Studio version
+2. Double-click the `.vsix` to open the installer
+3. **Only check the matching Visual Studio version** — uncheck any others
+4. Restart Visual Studio
+5. Switch themes via **Extensions > Ancient One** or **Tools > Theme**
+
+> **Note:** The VSIX installer may show checkboxes for all installed Visual Studio versions.
+> The version constraint will block installation on incompatible versions, but to avoid confusion,
+> only select the version that matches the file you downloaded.
 
 ### From Source
 
 Requires Visual Studio 2022/2026 with the **Visual Studio extension development** workload.
 
 ```
-msbuild src\InaVsTheme.csproj /p:Configuration=Release
+build.cmd
 ```
 
-Output: `src\bin\Release\InaVsTheme.vsix`
+Output:
+- VS 2026: `src\bin\Release\InaVsTheme.vsix`
+- VS 2022: `vs22\bin\Release\InaVsTheme-VS2022.vsix`
 
 ---
 
