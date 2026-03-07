@@ -6,7 +6,7 @@
 
 **Ninomae Ina'nis inspired color themes for Visual Studio 2022 / 2026**
 
-[![Version](https://img.shields.io/badge/version-1.8.0-7c4dff?style=for-the-badge)](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.8.1-7c4dff?style=for-the-badge)](https://github.com/BlackSiroGhost/InaVsTheme/releases/latest)
 [![VS 2022+](https://img.shields.io/badge/Visual%20Studio-2022%20%7C%202026-5c2d91?style=for-the-badge&logo=visualstudio&logoColor=white)](https://visualstudio.microsoft.com/)
 [![License](https://img.shields.io/badge/license-MIT-f4ba51?style=for-the-badge)](LICENSE.txt)
 
@@ -114,8 +114,9 @@
 
 ## Features
 
-- **Full shell theming** — title bar, tool windows, menus, tabs, scrollbars
+- **Full shell theming** — title bar, tool windows, menus, tabs, scrollbars, sticky scroll, solution badge
 - **Complete syntax highlighting** — Roslyn, Language Service, Text Manager, and ReSharper override categories
+- **Modern VS 2022 UI** — Shell & ShellInternal WinUI tokens for newer VS 2022 UI elements
 - **In-app switching** — change themes from **Extensions > Ancient One** without restarting
 - **VS 2022 & 2026** — separate VSIX for each version
 

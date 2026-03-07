@@ -66,6 +66,9 @@ VARIANTS = {
 # Environment Background elements that hold TEXT/GLYPH colors (should be light/readable).
 # These get mangled by map_bg_color which treats bright whites as "light surfaces" → dark.
 TEXT_AS_BG = {
+    # Solution name pill
+    "MainWindowSolutionNameActiveText": "foreground",
+    "MainWindowSolutionNameInactiveText": "fg_mid",
     # File tabs
     "FileTabSelectedText": "foreground",
     "FileTabHotText": "foreground",
@@ -202,6 +205,9 @@ BG_OVERRIDES = {
     "FileTabInactiveGradientBottom": "shell_bg",
     "FileTabInactiveBorder": "shell_bg",
     "FileTabChannelBackground": "shell_bg",
+    "FileTabGroupTitleBackground": "editor_bg",
+    "MainWindowSolutionNameActiveBackground": "editor_bg",
+    "MainWindowSolutionNameInactiveBackground": "shell_bg",
     # Tool window tabs
     "ToolWindowTabSelectedTab": "editor_bg",
     "ToolWindowTabSelectedBorder": "editor_bg",
@@ -505,7 +511,184 @@ TEXT_EDITOR_EXTRA_OVERRIDES = {
     "Selected Text": {"bg": "hover"},
     "Inactive Selected Text": {"bg": "surface"},
     "Visible Whitespace": {"fg": "border"},
+    "StickyScroll Background": {"bg": "shell_bg"},
+    "StickyScrollLineHighlightFormat": {"bg": "surface"},
 }
+
+
+def generate_shell_categories(palette):
+    """Generate Shell and ShellInternal category XML, mapping VS Dark neutral grays to our palette."""
+    p = palette
+
+    def bg(argb_hex):
+        return f'<Background Type="CT_RAW" Source="{argb_hex}" />'
+
+    def color(name, argb_hex):
+        return f'            <Color Name="{name}">\n                {bg(argb_hex)}\n            </Color>'
+
+    def solid(rgb_tuple, alpha=0xFF):
+        r, g, b = rgb_tuple
+        return f'{alpha:02X}{r:02X}{g:02X}{b:02X}'
+
+    def alpha_white(a):
+        return f'{a:02X}FFFFFF'
+
+    def alpha_black(a):
+        return f'{a:02X}000000'
+
+    # --- Shell category (93 tokens) ---
+    # Map: accent colors use palette accent, neutrals map to our purples
+    ar, ag, ab = p["accent"]
+    adr, adg, adb = p["accent_dark"]
+
+    shell_items = [
+        # Accent fills
+        ("AccentFillAlt", solid(p["accent_dark"])),
+        ("AccentFillDefault", solid(p["accent"])),
+        ("AccentFillDisabled", alpha_white(0x28)),
+        ("AccentFillSecondary", solid(p["accent"], 0xE5)),
+        ("AccentFillSelectedTextBackground", solid(p["accent_dark"])),
+        ("AccentFillSelectedTextBackgroundSubtle", solid(p["accent"], 0x66)),
+        ("AccentFillTertiary", solid(p["accent"], 0xCC)),
+        # Accent text
+        ("AccentTextFillDisabled", alpha_white(0x5D)),
+        ("AccentTextFillPrimary", solid(p["foreground"])),
+        ("AccentTextFillSecondary", solid(p["foreground"])),
+        ("AccentTextFillTertiary", solid(p["accent"])),
+        # Card backgrounds
+        ("CardBackgroundFillDefault", alpha_white(0x0D)),
+        ("CardBackgroundFillSecondary", alpha_white(0x08)),
+        ("CardBackgroundFillTertiary", alpha_white(0x12)),
+        ("CardStrokeDefault", alpha_black(0x1A)),
+        ("CardStrokeDefaultSolid", solid(p["shell_bg"])),
+        ("CardStrokeDefaultSolidAlt", solid(lerp(p["shell_bg"], (0, 0, 0), 0.5))),
+        # Control alt fills
+        ("ControlAltFillDisabled", alpha_white(0x00)),
+        ("ControlAltFillQuaternary", alpha_white(0x12)),
+        ("ControlAltFillSecondary", alpha_black(0x1A)),
+        ("ControlAltFillTertiary", alpha_white(0x0B)),
+        ("ControlAltFillTransparent", alpha_white(0x00)),
+        # Control fills
+        ("ControlFillActiveInput", solid(p["shell_bg"], 0xB2)),
+        ("ControlFillDefault", alpha_white(0x0F)),
+        ("ControlFillDisabled", alpha_white(0x0B)),
+        ("ControlFillQuaternary", alpha_white(0x0F)),
+        ("ControlFillSecondary", alpha_white(0x15)),
+        ("ControlFillTertiary", alpha_white(0x08)),
+        ("ControlFillTransparent", alpha_white(0x00)),
+        # Control on image
+        ("ControlOnImageFillDefault", solid(p["shell_bg"], 0xB2)),
+        ("ControlOnImageFillDisabled", solid(p["editor_bg"], 0x00)),
+        ("ControlOnImageFillSecondary", solid(p["shell_bg"])),
+        ("ControlOnImageFillTertiary", solid(lerp(p["shell_bg"], (0, 0, 0), 0.3))),
+        # Control solid
+        ("ControlSolidFillDefault", solid(p["border"])),
+        # Control strokes
+        ("ControlStrokeDefault", alpha_white(0x12)),
+        ("ControlStrokeForStrongFillWhenOnImage", alpha_black(0x6B)),
+        ("ControlStrokeOnAccentDefault", alpha_white(0x14)),
+        ("ControlStrokeOnAccentDisabled", alpha_black(0x33)),
+        ("ControlStrokeOnAccentSecondary", alpha_black(0x24)),
+        ("ControlStrokeOnAccentTertiary", alpha_black(0x37)),
+        ("ControlStrokeSecondary", alpha_white(0x18)),
+        ("ControlStrokeTransparent", alpha_black(0x00)),
+        # Control strong
+        ("ControlStrongFillDefault", alpha_white(0x8B)),
+        ("ControlStrongFillDisabled", alpha_white(0x3F)),
+        ("ControlStrongStrokeDefault", alpha_white(0x9A)),
+        ("ControlStrongStrokeDisabled", alpha_white(0x28)),
+        # Divider
+        ("DividerStrokeDefault", alpha_white(0x15)),
+        # Focus
+        ("FocusStrokeInner", alpha_black(0xB2)),
+        ("FocusStrokeOuter", "FFFFFFFF"),
+        # Hyperlink
+        ("HyperlinkFillDisabled", alpha_white(0x5D)),
+        ("HyperlinkFillPrimary", solid(p["accent"])),
+        ("HyperlinkFillSecondary", solid(p["accent"])),
+        ("HyperlinkFillTertiary", solid(p["accent_dark"])),
+        # Layer
+        ("LayerFillAlt", alpha_white(0x0E)),
+        ("LayerFillDefault", solid(p["surface"], 0x4D)),
+        # Shadow / Smoke
+        ("ShadowFlyout", alpha_black(0x42)),
+        ("SmokeFillDefault", alpha_black(0x4D)),
+        ("SmokeFillInverse", solid(p["shell_bg"], 0xB2)),
+        # Solid backgrounds
+        ("SolidBackgroundFillBase", solid(p["editor_bg"])),
+        ("SolidBackgroundFillBaseAlt", solid(lerp(p["shell_bg"], (0, 0, 0), 0.5))),
+        ("SolidBackgroundFillEditor", solid(p["editor_bg"])),
+        ("SolidBackgroundFillQuaternary", solid(p["editor_bg"])),
+        ("SolidBackgroundFillQuinary", solid(p["surface"])),
+        ("SolidBackgroundFillSecondary", solid(p["shell_bg"])),
+        ("SolidBackgroundFillSenary", solid(p["hover"])),
+        ("SolidBackgroundFillTertiary", solid(lerp(p["shell_bg"], p["editor_bg"], 0.5))),
+        # Subtle fills
+        ("SubtleFillDisabled", alpha_white(0x00)),
+        ("SubtleFillSecondary", alpha_white(0x0F)),
+        ("SubtleFillTertiary", alpha_white(0x0B)),
+        ("SubtleFillTransparent", alpha_white(0x00)),
+        # Surface stroke
+        ("SurfaceStrokeDefault", solid(p["border"], 0x66)),
+        ("SurfaceStrokeFlyout", alpha_black(0x33)),
+        # System fills
+        ("SystemFillAttention", "FF60CDFF"),
+        ("SystemFillAttentionBackground", alpha_white(0x08)),
+        ("SystemFillCaution", "FFFCE100"),
+        ("SystemFillCautionBackground", "FF433519"),
+        ("SystemFillCritical", "FFFF99A4"),
+        ("SystemFillCriticalBackground", "FF442726"),
+        ("SystemFillNeutral", alpha_white(0x8B)),
+        ("SystemFillNeutralBackground", alpha_white(0x08)),
+        ("SystemFillSolidAttentionBackground", solid(p["surface"])),
+        ("SystemFillSolidNeutral", solid(p["fg_mid"])),
+        ("SystemFillSolidNeutralBackground", solid(p["surface"])),
+        ("SystemFillSuccess", "FF6CCB5F"),
+        ("SystemFillSuccessBackground", "FF393D1B"),
+        # Text fills
+        ("TextFillDisabled", alpha_white(0x5D)),
+        ("TextFillPrimary", "FFFFFFFF"),
+        ("TextFillSecondary", alpha_white(0xC8)),
+        ("TextFillTertiary", alpha_white(0x8B)),
+        # Text on accent
+        ("TextOnAccentFillDisabled", alpha_black(0x80)),
+        ("TextOnAccentFillPrimary", "FF000000"),
+        ("TextOnAccentFillSecondary", alpha_black(0x80)),
+        ("TextOnAccentFillSelectedText", "FF000000"),
+    ]
+
+    # --- ShellInternal category (18 tokens) ---
+    shell_internal_items = [
+        ("EnvironmentBackground", solid(p["shell_bg"])),
+        ("EnvironmentBadge", alpha_white(0x0F)),
+        ("EnvironmentBorder", solid(p["accent"])),
+        ("EnvironmentBorderInactive", solid(p["border"])),
+        ("EnvironmentIndicator", solid(p["border"], 0x66)),
+        ("EnvironmentLayeredBackground", solid(p["surface"], 0x4D)),
+        ("EnvironmentLayeredBorder", alpha_black(0x80)),
+        ("EnvironmentLogo", solid(p["accent"])),
+        ("StatusBarControlFill", alpha_white(0x20)),
+        ("StatusBarFillBuildingBackground", solid(p["accent_dark"])),
+        ("StatusBarFillBuildingText", "FFFFFFFF"),
+        ("StatusBarFillDebuggingBackground", "FF8A3707"),
+        ("StatusBarFillDebuggingText", "FFFFFFFF"),
+        ("StatusBarFillNoSolutionBackground", alpha_black(0x4D)),
+        ("StatusBarFillNoSolutionText", "FFFFFFFF"),
+        ("StatusBarFillRestBackground", alpha_black(0x4D)),
+        ("StatusBarFillRestText", "FFFFFFFF"),
+        ("StatusBarTextFillDisabled", alpha_white(0x5D)),
+    ]
+
+    xml = ''
+    xml += '        <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">\n'
+    for name, val in shell_items:
+        xml += color(name, val) + '\n'
+    xml += '        </Category>\n'
+    xml += '        <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">\n'
+    for name, val in shell_internal_items:
+        xml += color(name, val) + '\n'
+    xml += '        </Category>\n'
+    return xml
 
 
 def lum(r, g, b):
@@ -724,23 +907,44 @@ def apply_category_overrides(theme_xml, category_name, overrides, palette):
         if isinstance(color_spec, str):
             color_spec = {"bg": color_spec}
 
-        if "bg" in color_spec:
-            r, g, b = palette[color_spec["bg"]]
-            pattern = rf'(<Color Name="{re.escape(token_name)}">.*?<Background[^>]*Source=")([A-Fa-f0-9]{{8}})(".*?</Color>)'
-            m = re.search(pattern, body, re.DOTALL)
-            if m:
-                alpha = m.group(2)[0:2]
-                new_val = f"{alpha}{r:02X}{g:02X}{b:02X}"
-                body = body[:m.start(2)] + new_val + body[m.end(2):]
+        # Check if the token already exists in the category
+        exists = re.search(rf'<Color Name="{re.escape(token_name)}">', body, re.DOTALL)
 
-        if "fg" in color_spec:
-            r, g, b = palette[color_spec["fg"]]
-            pattern = rf'(<Color Name="{re.escape(token_name)}">.*?<Foreground[^>]*Source=")([A-Fa-f0-9]{{8}})(".*?</Color>)'
-            m = re.search(pattern, body, re.DOTALL)
-            if m:
-                alpha = m.group(2)[0:2]
-                new_val = f"{alpha}{r:02X}{g:02X}{b:02X}"
-                body = body[:m.start(2)] + new_val + body[m.end(2):]
+        if exists:
+            if "bg" in color_spec:
+                r, g, b = palette[color_spec["bg"]]
+                pattern = rf'(<Color Name="{re.escape(token_name)}">.*?<Background[^>]*Source=")([A-Fa-f0-9]{{8}})(".*?</Color>)'
+                m = re.search(pattern, body, re.DOTALL)
+                if m:
+                    alpha = m.group(2)[0:2]
+                    new_val = f"{alpha}{r:02X}{g:02X}{b:02X}"
+                    body = body[:m.start(2)] + new_val + body[m.end(2):]
+
+            if "fg" in color_spec:
+                r, g, b = palette[color_spec["fg"]]
+                pattern = rf'(<Color Name="{re.escape(token_name)}">.*?<Foreground[^>]*Source=")([A-Fa-f0-9]{{8}})(".*?</Color>)'
+                m = re.search(pattern, body, re.DOTALL)
+                if m:
+                    alpha = m.group(2)[0:2]
+                    new_val = f"{alpha}{r:02X}{g:02X}{b:02X}"
+                    body = body[:m.start(2)] + new_val + body[m.end(2):]
+        else:
+            # Inject a new Color entry
+            bg_hex = "00000000"
+            if "bg" in color_spec:
+                r, g, b = palette[color_spec["bg"]]
+                bg_hex = f"FF{r:02X}{g:02X}{b:02X}"
+            fg_hex = "00000000"
+            if "fg" in color_spec:
+                r, g, b = palette[color_spec["fg"]]
+                fg_hex = f"FF{r:02X}{g:02X}{b:02X}"
+            new_entry = (
+                f'\n            <Color Name="{token_name}">\n'
+                f'                <Background Type="CT_RAW" Source="{bg_hex}" />\n'
+                f'                <Foreground Type="CT_RAW" Source="{fg_hex}" />\n'
+                f'            </Color>'
+            )
+            body += new_entry
 
     return theme_xml[:cat_match.start(2)] + body + theme_xml[cat_match.end(2):]
 
@@ -861,6 +1065,10 @@ def build_vs22_theme():
         for te_cat in ["Text Editor Text Manager Items", "Text Editor Language Service Items",
                        "Text Editor MEF Items", "ColorizedSignatureHelp colors"]:
             remapped = apply_category_overrides(remapped, te_cat, TEXT_EDITOR_EXTRA_OVERRIDES, palette)
+
+        # Add Shell and ShellInternal categories (WinUI-style tokens for newer VS 2022 UI)
+        shell_xml = generate_shell_categories(palette)
+        remapped = remapped.replace('</Theme>', shell_xml + '    </Theme>')
 
         output_themes.append(remapped)
 

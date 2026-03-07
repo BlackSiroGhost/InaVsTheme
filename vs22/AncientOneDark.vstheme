@@ -1632,7 +1632,31 @@
             <Color Name="CppNewDeleteSemanticTokenFormat">
                 <Foreground Type="CT_RAW" Source="FFF4BA51" />
             </Color>
-        </Category>
+        
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF3D3152" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF504662" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
             <Color Name="Plain Text">
                 <Background Type="CT_RAW" Source="FF1D142E" />
@@ -4951,7 +4975,99 @@
             <Color Name="ComboBoxFocusBox">
                 <Background Type="CT_RAW" Source="FF332848" />
             </Color>
-        </Category>
+        
+            <Color Name="MainWindowSolutionNameActiveText">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveText">
+                <Background Type="CT_RAW" Source="FF9991AC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalSelectedActiveText">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalInactiveText">
+                <Background Type="CT_RAW" Source="FF9991AC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="CommandBarTextMouseOverUnfocused">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarTextUnfocused">
+                <Background Type="CT_RAW" Source="FF73688D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxText">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxWatermarkText">
+                <Background Type="CT_RAW" Source="FF73688D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabGroupTitleBackground">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameActiveBackground">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarUnfocused">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperHorizontalBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperVerticalBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonActive">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonInactive">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonGlyph">
+                <Background Type="CT_RAW" Source="FF9991AC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverBackground">
+                <Background Type="CT_RAW" Source="FF3D3152" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverGlyph">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownGlyph">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SplitterBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
             <Color Name="DropDownMenuMouseDown">
                 <Background Type="CT_RAW" Source="FF1D142E" />
@@ -7252,7 +7368,39 @@
 			</Color>
             <Color Name="Operator">
 				<Foreground Type="CT_RAW" Source="FFC7A8ED" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="FFC0BBCB" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+                <Foreground Type="CT_RAW" Source="FF73688D" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF3D3152" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF504662" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
             <Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF2B203F" />
@@ -7501,7 +7649,23 @@
 			</Color>
             <Color Name="ReSharper C# Braces">
 				<Foreground Type="CT_RAW" Source="FF98939B" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="FFC0BBCB" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+                <Foreground Type="CT_RAW" Source="FF73688D" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Marker Items" GUID="{ff349800-ea43-46c1-8c98-878e78f46501}">
             <Color Name="Read-Only Region">
                 <Background Type="CT_RAW" Source="FF3D3152" />
@@ -8758,8 +8922,377 @@
             <Color Name="xml doc comment - attribute value">
 				<Foreground Type="CT_RAW" Source="FFE6BE7D" />
 			</Color>
+        
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="FFC0BBCB" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+                <Foreground Type="CT_RAW" Source="FF73688D" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF3D3152" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF504662" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF332848" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
+	        <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+            <Color Name="AccentFillAlt">
+                <Background Type="CT_RAW" Source="FFAD8439" />
+            </Color>
+            <Color Name="AccentFillDefault">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="AccentFillDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="AccentFillSecondary">
+                <Background Type="CT_RAW" Source="E5F4BA51" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackground">
+                <Background Type="CT_RAW" Source="FFAD8439" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackgroundSubtle">
+                <Background Type="CT_RAW" Source="66F4BA51" />
+            </Color>
+            <Color Name="AccentFillTertiary">
+                <Background Type="CT_RAW" Source="CCF4BA51" />
+            </Color>
+            <Color Name="AccentTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="AccentTextFillPrimary">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+            </Color>
+            <Color Name="AccentTextFillSecondary">
+                <Background Type="CT_RAW" Source="FFC0BBCB" />
+            </Color>
+            <Color Name="AccentTextFillTertiary">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="CardBackgroundFillDefault">
+                <Background Type="CT_RAW" Source="0DFFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="CardStrokeDefault">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolid">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolidAlt">
+                <Background Type="CT_RAW" Source="FF0E0A17" />
+            </Color>
+            <Color Name="ControlAltFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillQuaternary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillSecondary">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="ControlAltFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlFillActiveInput">
+                <Background Type="CT_RAW" Source="B21D142E" />
+            </Color>
+            <Color Name="ControlFillDefault">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillDisabled">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlFillQuaternary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillSecondary">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTertiary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlOnImageFillDefault">
+                <Background Type="CT_RAW" Source="B21D142E" />
+            </Color>
+            <Color Name="ControlOnImageFillDisabled">
+                <Background Type="CT_RAW" Source="002B203F" />
+            </Color>
+            <Color Name="ControlOnImageFillSecondary">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+            </Color>
+            <Color Name="ControlOnImageFillTertiary">
+                <Background Type="CT_RAW" Source="FF140E20" />
+            </Color>
+            <Color Name="ControlSolidFillDefault">
+                <Background Type="CT_RAW" Source="FF504662" />
+            </Color>
+            <Color Name="ControlStrokeDefault">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeForStrongFillWhenOnImage">
+                <Background Type="CT_RAW" Source="6B000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDefault">
+                <Background Type="CT_RAW" Source="14FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDisabled">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentSecondary">
+                <Background Type="CT_RAW" Source="24000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentTertiary">
+                <Background Type="CT_RAW" Source="37000000" />
+            </Color>
+            <Color Name="ControlStrokeSecondary">
+                <Background Type="CT_RAW" Source="18FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeTransparent">
+                <Background Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="ControlStrongFillDefault">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongFillDisabled">
+                <Background Type="CT_RAW" Source="3FFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDefault">
+                <Background Type="CT_RAW" Source="9AFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="DividerStrokeDefault">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="FocusStrokeInner">
+                <Background Type="CT_RAW" Source="B2000000" />
+            </Color>
+            <Color Name="FocusStrokeOuter">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillPrimary">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="HyperlinkFillSecondary">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="HyperlinkFillTertiary">
+                <Background Type="CT_RAW" Source="FFAD8439" />
+            </Color>
+            <Color Name="LayerFillAlt">
+                <Background Type="CT_RAW" Source="0EFFFFFF" />
+            </Color>
+            <Color Name="LayerFillDefault">
+                <Background Type="CT_RAW" Source="4D332848" />
+            </Color>
+            <Color Name="ShadowFlyout">
+                <Background Type="CT_RAW" Source="42000000" />
+            </Color>
+            <Color Name="SmokeFillDefault">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="SmokeFillInverse">
+                <Background Type="CT_RAW" Source="B21D142E" />
+            </Color>
+            <Color Name="SolidBackgroundFillBase">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+            </Color>
+            <Color Name="SolidBackgroundFillBaseAlt">
+                <Background Type="CT_RAW" Source="FF0E0A17" />
+            </Color>
+            <Color Name="SolidBackgroundFillEditor">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuaternary">
+                <Background Type="CT_RAW" Source="FF2B203F" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuinary">
+                <Background Type="CT_RAW" Source="FF332848" />
+            </Color>
+            <Color Name="SolidBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+            </Color>
+            <Color Name="SolidBackgroundFillSenary">
+                <Background Type="CT_RAW" Source="FF3D3152" />
+            </Color>
+            <Color Name="SolidBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="FF241A36" />
+            </Color>
+            <Color Name="SubtleFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SubtleFillSecondary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SurfaceStrokeDefault">
+                <Background Type="CT_RAW" Source="66504662" />
+            </Color>
+            <Color Name="SurfaceStrokeFlyout">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="SystemFillAttention">
+                <Background Type="CT_RAW" Source="FF60CDFF" />
+            </Color>
+            <Color Name="SystemFillAttentionBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillCaution">
+                <Background Type="CT_RAW" Source="FFFCE100" />
+            </Color>
+            <Color Name="SystemFillCautionBackground">
+                <Background Type="CT_RAW" Source="FF433519" />
+            </Color>
+            <Color Name="SystemFillCritical">
+                <Background Type="CT_RAW" Source="FFFF99A4" />
+            </Color>
+            <Color Name="SystemFillCriticalBackground">
+                <Background Type="CT_RAW" Source="FF442726" />
+            </Color>
+            <Color Name="SystemFillNeutral">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="SystemFillNeutralBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillSolidAttentionBackground">
+                <Background Type="CT_RAW" Source="FF332848" />
+            </Color>
+            <Color Name="SystemFillSolidNeutral">
+                <Background Type="CT_RAW" Source="FF9991AC" />
+            </Color>
+            <Color Name="SystemFillSolidNeutralBackground">
+                <Background Type="CT_RAW" Source="FF332848" />
+            </Color>
+            <Color Name="SystemFillSuccess">
+                <Background Type="CT_RAW" Source="FF6CCB5F" />
+            </Color>
+            <Color Name="SystemFillSuccessBackground">
+                <Background Type="CT_RAW" Source="FF393D1B" />
+            </Color>
+            <Color Name="TextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="TextFillPrimary">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="TextFillSecondary">
+                <Background Type="CT_RAW" Source="C8FFFFFF" />
+            </Color>
+            <Color Name="TextFillTertiary">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="TextOnAccentFillDisabled">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillPrimary">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSecondary">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSelectedText">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
         </Category>
-	</Theme>
+        <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+            <Color Name="EnvironmentBackground">
+                <Background Type="CT_RAW" Source="FF1D142E" />
+            </Color>
+            <Color Name="EnvironmentBadge">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="EnvironmentBorder">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="EnvironmentBorderInactive">
+                <Background Type="CT_RAW" Source="FF504662" />
+            </Color>
+            <Color Name="EnvironmentIndicator">
+                <Background Type="CT_RAW" Source="66504662" />
+            </Color>
+            <Color Name="EnvironmentLayeredBackground">
+                <Background Type="CT_RAW" Source="4D332848" />
+            </Color>
+            <Color Name="EnvironmentLayeredBorder">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="EnvironmentLogo">
+                <Background Type="CT_RAW" Source="FFF4BA51" />
+            </Color>
+            <Color Name="StatusBarControlFill">
+                <Background Type="CT_RAW" Source="20FFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillBuildingBackground">
+                <Background Type="CT_RAW" Source="FFAD8439" />
+            </Color>
+            <Color Name="StatusBarFillBuildingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingBackground">
+                <Background Type="CT_RAW" Source="FF8A3707" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillRestBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillRestText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+        </Category>
+    </Theme>
 
 <Theme Name="Ancient One Dark Violet" GUID="{7f4b5a6c-9d3e-4b02-c8f1-2a0e4d6b3c91}">
         <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
@@ -10393,7 +10926,31 @@
             <Color Name="CppNewDeleteSemanticTokenFormat">
                 <Foreground Type="CT_RAW" Source="FFFDC955" />
             </Color>
-        </Category>
+        
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF362F50" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF48405E" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
             <Color Name="Plain Text">
                 <Background Type="CT_RAW" Source="FF19152A" />
@@ -13712,7 +14269,99 @@
             <Color Name="ComboBoxFocusBox">
                 <Background Type="CT_RAW" Source="FF2C2645" />
             </Color>
-        </Category>
+        
+            <Color Name="MainWindowSolutionNameActiveText">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveText">
+                <Background Type="CT_RAW" Source="FF948DAE" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalSelectedActiveText">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalInactiveText">
+                <Background Type="CT_RAW" Source="FF948DAE" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="CommandBarTextMouseOverUnfocused">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarTextUnfocused">
+                <Background Type="CT_RAW" Source="FF6B6490" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxText">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxWatermarkText">
+                <Background Type="CT_RAW" Source="FF6B6490" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabGroupTitleBackground">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameActiveBackground">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarUnfocused">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperHorizontalBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperVerticalBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonActive">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonInactive">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonGlyph">
+                <Background Type="CT_RAW" Source="FF948DAE" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverBackground">
+                <Background Type="CT_RAW" Source="FF362F50" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverGlyph">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownGlyph">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SplitterBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
             <Color Name="DropDownMenuMouseDown">
                 <Background Type="CT_RAW" Source="FF19152A" />
@@ -16013,7 +16662,39 @@
 			</Color>
             <Color Name="Operator">
 				<Foreground Type="CT_RAW" Source="FF8087EE" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="FFBDB6CC" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+                <Foreground Type="CT_RAW" Source="FF6B6490" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF362F50" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF48405E" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
             <Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF241E3D" />
@@ -16262,7 +16943,23 @@
 			</Color>
             <Color Name="ReSharper C# Braces">
 				<Foreground Type="CT_RAW" Source="FF9793B5" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="FFBDB6CC" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+                <Foreground Type="CT_RAW" Source="FF6B6490" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Marker Items" GUID="{ff349800-ea43-46c1-8c98-878e78f46501}">
             <Color Name="Read-Only Region">
                 <Background Type="CT_RAW" Source="FF362F50" />
@@ -17519,8 +18216,377 @@
             <Color Name="xml doc comment - attribute value">
 				<Foreground Type="CT_RAW" Source="FFDDB672" />
 			</Color>
+        
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="FFBDB6CC" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+                <Foreground Type="CT_RAW" Source="FF6B6490" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF362F50" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF48405E" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF19152A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
+	        <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+            <Color Name="AccentFillAlt">
+                <Background Type="CT_RAW" Source="FFB38E3C" />
+            </Color>
+            <Color Name="AccentFillDefault">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="AccentFillDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="AccentFillSecondary">
+                <Background Type="CT_RAW" Source="E5FDC955" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackground">
+                <Background Type="CT_RAW" Source="FFB38E3C" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackgroundSubtle">
+                <Background Type="CT_RAW" Source="66FDC955" />
+            </Color>
+            <Color Name="AccentFillTertiary">
+                <Background Type="CT_RAW" Source="CCFDC955" />
+            </Color>
+            <Color Name="AccentTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="AccentTextFillPrimary">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+            </Color>
+            <Color Name="AccentTextFillSecondary">
+                <Background Type="CT_RAW" Source="FFBDB6CC" />
+            </Color>
+            <Color Name="AccentTextFillTertiary">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="CardBackgroundFillDefault">
+                <Background Type="CT_RAW" Source="0DFFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="CardStrokeDefault">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolid">
+                <Background Type="CT_RAW" Source="FF19152A" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolidAlt">
+                <Background Type="CT_RAW" Source="FF0C0A15" />
+            </Color>
+            <Color Name="ControlAltFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillQuaternary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillSecondary">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="ControlAltFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlFillActiveInput">
+                <Background Type="CT_RAW" Source="B219152A" />
+            </Color>
+            <Color Name="ControlFillDefault">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillDisabled">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlFillQuaternary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillSecondary">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTertiary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlOnImageFillDefault">
+                <Background Type="CT_RAW" Source="B219152A" />
+            </Color>
+            <Color Name="ControlOnImageFillDisabled">
+                <Background Type="CT_RAW" Source="00241E3D" />
+            </Color>
+            <Color Name="ControlOnImageFillSecondary">
+                <Background Type="CT_RAW" Source="FF19152A" />
+            </Color>
+            <Color Name="ControlOnImageFillTertiary">
+                <Background Type="CT_RAW" Source="FF120F1D" />
+            </Color>
+            <Color Name="ControlSolidFillDefault">
+                <Background Type="CT_RAW" Source="FF48405E" />
+            </Color>
+            <Color Name="ControlStrokeDefault">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeForStrongFillWhenOnImage">
+                <Background Type="CT_RAW" Source="6B000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDefault">
+                <Background Type="CT_RAW" Source="14FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDisabled">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentSecondary">
+                <Background Type="CT_RAW" Source="24000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentTertiary">
+                <Background Type="CT_RAW" Source="37000000" />
+            </Color>
+            <Color Name="ControlStrokeSecondary">
+                <Background Type="CT_RAW" Source="18FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeTransparent">
+                <Background Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="ControlStrongFillDefault">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongFillDisabled">
+                <Background Type="CT_RAW" Source="3FFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDefault">
+                <Background Type="CT_RAW" Source="9AFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="DividerStrokeDefault">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="FocusStrokeInner">
+                <Background Type="CT_RAW" Source="B2000000" />
+            </Color>
+            <Color Name="FocusStrokeOuter">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillPrimary">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="HyperlinkFillSecondary">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="HyperlinkFillTertiary">
+                <Background Type="CT_RAW" Source="FFB38E3C" />
+            </Color>
+            <Color Name="LayerFillAlt">
+                <Background Type="CT_RAW" Source="0EFFFFFF" />
+            </Color>
+            <Color Name="LayerFillDefault">
+                <Background Type="CT_RAW" Source="4D2C2645" />
+            </Color>
+            <Color Name="ShadowFlyout">
+                <Background Type="CT_RAW" Source="42000000" />
+            </Color>
+            <Color Name="SmokeFillDefault">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="SmokeFillInverse">
+                <Background Type="CT_RAW" Source="B219152A" />
+            </Color>
+            <Color Name="SolidBackgroundFillBase">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+            </Color>
+            <Color Name="SolidBackgroundFillBaseAlt">
+                <Background Type="CT_RAW" Source="FF0C0A15" />
+            </Color>
+            <Color Name="SolidBackgroundFillEditor">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuaternary">
+                <Background Type="CT_RAW" Source="FF241E3D" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuinary">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+            </Color>
+            <Color Name="SolidBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="FF19152A" />
+            </Color>
+            <Color Name="SolidBackgroundFillSenary">
+                <Background Type="CT_RAW" Source="FF362F50" />
+            </Color>
+            <Color Name="SolidBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="FF1E1A34" />
+            </Color>
+            <Color Name="SubtleFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SubtleFillSecondary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SurfaceStrokeDefault">
+                <Background Type="CT_RAW" Source="6648405E" />
+            </Color>
+            <Color Name="SurfaceStrokeFlyout">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="SystemFillAttention">
+                <Background Type="CT_RAW" Source="FF60CDFF" />
+            </Color>
+            <Color Name="SystemFillAttentionBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillCaution">
+                <Background Type="CT_RAW" Source="FFFCE100" />
+            </Color>
+            <Color Name="SystemFillCautionBackground">
+                <Background Type="CT_RAW" Source="FF433519" />
+            </Color>
+            <Color Name="SystemFillCritical">
+                <Background Type="CT_RAW" Source="FFFF99A4" />
+            </Color>
+            <Color Name="SystemFillCriticalBackground">
+                <Background Type="CT_RAW" Source="FF442726" />
+            </Color>
+            <Color Name="SystemFillNeutral">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="SystemFillNeutralBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillSolidAttentionBackground">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+            </Color>
+            <Color Name="SystemFillSolidNeutral">
+                <Background Type="CT_RAW" Source="FF948DAE" />
+            </Color>
+            <Color Name="SystemFillSolidNeutralBackground">
+                <Background Type="CT_RAW" Source="FF2C2645" />
+            </Color>
+            <Color Name="SystemFillSuccess">
+                <Background Type="CT_RAW" Source="FF6CCB5F" />
+            </Color>
+            <Color Name="SystemFillSuccessBackground">
+                <Background Type="CT_RAW" Source="FF393D1B" />
+            </Color>
+            <Color Name="TextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="TextFillPrimary">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="TextFillSecondary">
+                <Background Type="CT_RAW" Source="C8FFFFFF" />
+            </Color>
+            <Color Name="TextFillTertiary">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="TextOnAccentFillDisabled">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillPrimary">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSecondary">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSelectedText">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
         </Category>
-	</Theme>
+        <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+            <Color Name="EnvironmentBackground">
+                <Background Type="CT_RAW" Source="FF19152A" />
+            </Color>
+            <Color Name="EnvironmentBadge">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="EnvironmentBorder">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="EnvironmentBorderInactive">
+                <Background Type="CT_RAW" Source="FF48405E" />
+            </Color>
+            <Color Name="EnvironmentIndicator">
+                <Background Type="CT_RAW" Source="6648405E" />
+            </Color>
+            <Color Name="EnvironmentLayeredBackground">
+                <Background Type="CT_RAW" Source="4D2C2645" />
+            </Color>
+            <Color Name="EnvironmentLayeredBorder">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="EnvironmentLogo">
+                <Background Type="CT_RAW" Source="FFFDC955" />
+            </Color>
+            <Color Name="StatusBarControlFill">
+                <Background Type="CT_RAW" Source="20FFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillBuildingBackground">
+                <Background Type="CT_RAW" Source="FFB38E3C" />
+            </Color>
+            <Color Name="StatusBarFillBuildingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingBackground">
+                <Background Type="CT_RAW" Source="FF8A3707" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillRestBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillRestText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+        </Category>
+    </Theme>
 
 <Theme Name="Ancient One Dark Slate" GUID="{8a5c6b7d-0e4f-4c13-d902-3b1f5e7c4da2}">
         <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
@@ -19154,7 +20220,31 @@
             <Color Name="CppNewDeleteSemanticTokenFormat">
                 <Foreground Type="CT_RAW" Source="FF6B71C4" />
             </Color>
-        </Category>
+        
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF303033" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF444448" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
             <Color Name="Plain Text">
                 <Background Type="CT_RAW" Source="FF141414" />
@@ -22473,7 +23563,99 @@
             <Color Name="ComboBoxFocusBox">
                 <Background Type="CT_RAW" Source="FF252527" />
             </Color>
-        </Category>
+        
+            <Color Name="MainWindowSolutionNameActiveText">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveText">
+                <Background Type="CT_RAW" Source="FF8A8A8E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalSelectedActiveText">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabProvisionalInactiveText">
+                <Background Type="CT_RAW" Source="FF8A8A8E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="CommandBarTextMouseOverUnfocused">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarTextUnfocused">
+                <Background Type="CT_RAW" Source="FF6A6A6A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxText">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SearchBoxWatermarkText">
+                <Background Type="CT_RAW" Source="FF6A6A6A" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="FileTabGroupTitleBackground">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameActiveBackground">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowSolutionNameInactiveBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="PanelTitleBarUnfocused">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperHorizontalBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="GripperVerticalBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonActive">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="MainWindowButtonInactive">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonGlyph">
+                <Background Type="CT_RAW" Source="FF8A8A8E" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverBackground">
+                <Background Type="CT_RAW" Source="FF303033" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseOverGlyph">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="DocumentWellOverflowButtonMouseDownGlyph">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="SplitterBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
             <Color Name="DropDownMenuMouseDown">
                 <Background Type="CT_RAW" Source="FF141414" />
@@ -24774,7 +25956,39 @@
 			</Color>
             <Color Name="Operator">
 				<Foreground Type="CT_RAW" Source="FFBFBBCD" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="FFB0ACB8" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+                <Foreground Type="CT_RAW" Source="FF6A6A6A" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF303033" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF444448" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
             <Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF1C1C1D" />
@@ -25023,7 +26237,23 @@
 			</Color>
             <Color Name="ReSharper C# Braces">
 				<Foreground Type="CT_RAW" Source="FF98939B" />
-			</Color></Category>
+			</Color>
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="FFB0ACB8" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+                <Foreground Type="CT_RAW" Source="FF6A6A6A" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
         <Category Name="Text Editor Text Marker Items" GUID="{ff349800-ea43-46c1-8c98-878e78f46501}">
             <Color Name="Read-Only Region">
                 <Background Type="CT_RAW" Source="FF303033" />
@@ -26280,7 +27510,376 @@
             <Color Name="xml doc comment - attribute value">
 				<Foreground Type="CT_RAW" Source="FFC9A974" />
 			</Color>
+        
+            <Color Name="outlining.collapsehintadornment">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="FFB0ACB8" />
+            </Color>
+            <Color Name="outlining.square">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+                <Foreground Type="CT_RAW" Source="FF6A6A6A" />
+            </Color>
+            <Color Name="Indicator Margin">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Selected Text">
+                <Background Type="CT_RAW" Source="FF303033" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Inactive Selected Text">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="Visible Whitespace">
+                <Background Type="CT_RAW" Source="00000000" />
+                <Foreground Type="CT_RAW" Source="FF444448" />
+            </Color>
+            <Color Name="StickyScroll Background">
+                <Background Type="CT_RAW" Source="FF141414" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="StickyScrollLineHighlightFormat">
+                <Background Type="CT_RAW" Source="FF252527" />
+                <Foreground Type="CT_RAW" Source="00000000" />
+            </Color></Category>
+	        <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+            <Color Name="AccentFillAlt">
+                <Background Type="CT_RAW" Source="FF4D528E" />
+            </Color>
+            <Color Name="AccentFillDefault">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="AccentFillDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="AccentFillSecondary">
+                <Background Type="CT_RAW" Source="E56B71C4" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackground">
+                <Background Type="CT_RAW" Source="FF4D528E" />
+            </Color>
+            <Color Name="AccentFillSelectedTextBackgroundSubtle">
+                <Background Type="CT_RAW" Source="666B71C4" />
+            </Color>
+            <Color Name="AccentFillTertiary">
+                <Background Type="CT_RAW" Source="CC6B71C4" />
+            </Color>
+            <Color Name="AccentTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="AccentTextFillPrimary">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+            </Color>
+            <Color Name="AccentTextFillSecondary">
+                <Background Type="CT_RAW" Source="FFB0ACB8" />
+            </Color>
+            <Color Name="AccentTextFillTertiary">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="CardBackgroundFillDefault">
+                <Background Type="CT_RAW" Source="0DFFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="CardBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="CardStrokeDefault">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolid">
+                <Background Type="CT_RAW" Source="FF141414" />
+            </Color>
+            <Color Name="CardStrokeDefaultSolidAlt">
+                <Background Type="CT_RAW" Source="FF0A0A0A" />
+            </Color>
+            <Color Name="ControlAltFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillQuaternary">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillSecondary">
+                <Background Type="CT_RAW" Source="1A000000" />
+            </Color>
+            <Color Name="ControlAltFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlAltFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlFillActiveInput">
+                <Background Type="CT_RAW" Source="B2141414" />
+            </Color>
+            <Color Name="ControlFillDefault">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillDisabled">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="ControlFillQuaternary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="ControlFillSecondary">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTertiary">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="ControlFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="ControlOnImageFillDefault">
+                <Background Type="CT_RAW" Source="B2141414" />
+            </Color>
+            <Color Name="ControlOnImageFillDisabled">
+                <Background Type="CT_RAW" Source="001C1C1D" />
+            </Color>
+            <Color Name="ControlOnImageFillSecondary">
+                <Background Type="CT_RAW" Source="FF141414" />
+            </Color>
+            <Color Name="ControlOnImageFillTertiary">
+                <Background Type="CT_RAW" Source="FF0E0E0E" />
+            </Color>
+            <Color Name="ControlSolidFillDefault">
+                <Background Type="CT_RAW" Source="FF444448" />
+            </Color>
+            <Color Name="ControlStrokeDefault">
+                <Background Type="CT_RAW" Source="12FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeForStrongFillWhenOnImage">
+                <Background Type="CT_RAW" Source="6B000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDefault">
+                <Background Type="CT_RAW" Source="14FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentDisabled">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentSecondary">
+                <Background Type="CT_RAW" Source="24000000" />
+            </Color>
+            <Color Name="ControlStrokeOnAccentTertiary">
+                <Background Type="CT_RAW" Source="37000000" />
+            </Color>
+            <Color Name="ControlStrokeSecondary">
+                <Background Type="CT_RAW" Source="18FFFFFF" />
+            </Color>
+            <Color Name="ControlStrokeTransparent">
+                <Background Type="CT_RAW" Source="00000000" />
+            </Color>
+            <Color Name="ControlStrongFillDefault">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongFillDisabled">
+                <Background Type="CT_RAW" Source="3FFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDefault">
+                <Background Type="CT_RAW" Source="9AFFFFFF" />
+            </Color>
+            <Color Name="ControlStrongStrokeDisabled">
+                <Background Type="CT_RAW" Source="28FFFFFF" />
+            </Color>
+            <Color Name="DividerStrokeDefault">
+                <Background Type="CT_RAW" Source="15FFFFFF" />
+            </Color>
+            <Color Name="FocusStrokeInner">
+                <Background Type="CT_RAW" Source="B2000000" />
+            </Color>
+            <Color Name="FocusStrokeOuter">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="HyperlinkFillPrimary">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="HyperlinkFillSecondary">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="HyperlinkFillTertiary">
+                <Background Type="CT_RAW" Source="FF4D528E" />
+            </Color>
+            <Color Name="LayerFillAlt">
+                <Background Type="CT_RAW" Source="0EFFFFFF" />
+            </Color>
+            <Color Name="LayerFillDefault">
+                <Background Type="CT_RAW" Source="4D252527" />
+            </Color>
+            <Color Name="ShadowFlyout">
+                <Background Type="CT_RAW" Source="42000000" />
+            </Color>
+            <Color Name="SmokeFillDefault">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="SmokeFillInverse">
+                <Background Type="CT_RAW" Source="B2141414" />
+            </Color>
+            <Color Name="SolidBackgroundFillBase">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+            </Color>
+            <Color Name="SolidBackgroundFillBaseAlt">
+                <Background Type="CT_RAW" Source="FF0A0A0A" />
+            </Color>
+            <Color Name="SolidBackgroundFillEditor">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuaternary">
+                <Background Type="CT_RAW" Source="FF1C1C1D" />
+            </Color>
+            <Color Name="SolidBackgroundFillQuinary">
+                <Background Type="CT_RAW" Source="FF252527" />
+            </Color>
+            <Color Name="SolidBackgroundFillSecondary">
+                <Background Type="CT_RAW" Source="FF141414" />
+            </Color>
+            <Color Name="SolidBackgroundFillSenary">
+                <Background Type="CT_RAW" Source="FF303033" />
+            </Color>
+            <Color Name="SolidBackgroundFillTertiary">
+                <Background Type="CT_RAW" Source="FF181818" />
+            </Color>
+            <Color Name="SubtleFillDisabled">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SubtleFillSecondary">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTertiary">
+                <Background Type="CT_RAW" Source="0BFFFFFF" />
+            </Color>
+            <Color Name="SubtleFillTransparent">
+                <Background Type="CT_RAW" Source="00FFFFFF" />
+            </Color>
+            <Color Name="SurfaceStrokeDefault">
+                <Background Type="CT_RAW" Source="66444448" />
+            </Color>
+            <Color Name="SurfaceStrokeFlyout">
+                <Background Type="CT_RAW" Source="33000000" />
+            </Color>
+            <Color Name="SystemFillAttention">
+                <Background Type="CT_RAW" Source="FF60CDFF" />
+            </Color>
+            <Color Name="SystemFillAttentionBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillCaution">
+                <Background Type="CT_RAW" Source="FFFCE100" />
+            </Color>
+            <Color Name="SystemFillCautionBackground">
+                <Background Type="CT_RAW" Source="FF433519" />
+            </Color>
+            <Color Name="SystemFillCritical">
+                <Background Type="CT_RAW" Source="FFFF99A4" />
+            </Color>
+            <Color Name="SystemFillCriticalBackground">
+                <Background Type="CT_RAW" Source="FF442726" />
+            </Color>
+            <Color Name="SystemFillNeutral">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="SystemFillNeutralBackground">
+                <Background Type="CT_RAW" Source="08FFFFFF" />
+            </Color>
+            <Color Name="SystemFillSolidAttentionBackground">
+                <Background Type="CT_RAW" Source="FF252527" />
+            </Color>
+            <Color Name="SystemFillSolidNeutral">
+                <Background Type="CT_RAW" Source="FF8A8A8E" />
+            </Color>
+            <Color Name="SystemFillSolidNeutralBackground">
+                <Background Type="CT_RAW" Source="FF252527" />
+            </Color>
+            <Color Name="SystemFillSuccess">
+                <Background Type="CT_RAW" Source="FF6CCB5F" />
+            </Color>
+            <Color Name="SystemFillSuccessBackground">
+                <Background Type="CT_RAW" Source="FF393D1B" />
+            </Color>
+            <Color Name="TextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+            <Color Name="TextFillPrimary">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="TextFillSecondary">
+                <Background Type="CT_RAW" Source="C8FFFFFF" />
+            </Color>
+            <Color Name="TextFillTertiary">
+                <Background Type="CT_RAW" Source="8BFFFFFF" />
+            </Color>
+            <Color Name="TextOnAccentFillDisabled">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillPrimary">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSecondary">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="TextOnAccentFillSelectedText">
+                <Background Type="CT_RAW" Source="FF000000" />
+            </Color>
         </Category>
-	</Theme>
+        <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+            <Color Name="EnvironmentBackground">
+                <Background Type="CT_RAW" Source="FF141414" />
+            </Color>
+            <Color Name="EnvironmentBadge">
+                <Background Type="CT_RAW" Source="0FFFFFFF" />
+            </Color>
+            <Color Name="EnvironmentBorder">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="EnvironmentBorderInactive">
+                <Background Type="CT_RAW" Source="FF444448" />
+            </Color>
+            <Color Name="EnvironmentIndicator">
+                <Background Type="CT_RAW" Source="66444448" />
+            </Color>
+            <Color Name="EnvironmentLayeredBackground">
+                <Background Type="CT_RAW" Source="4D252527" />
+            </Color>
+            <Color Name="EnvironmentLayeredBorder">
+                <Background Type="CT_RAW" Source="80000000" />
+            </Color>
+            <Color Name="EnvironmentLogo">
+                <Background Type="CT_RAW" Source="FF6B71C4" />
+            </Color>
+            <Color Name="StatusBarControlFill">
+                <Background Type="CT_RAW" Source="20FFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillBuildingBackground">
+                <Background Type="CT_RAW" Source="FF4D528E" />
+            </Color>
+            <Color Name="StatusBarFillBuildingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingBackground">
+                <Background Type="CT_RAW" Source="FF8A3707" />
+            </Color>
+            <Color Name="StatusBarFillDebuggingText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillNoSolutionText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarFillRestBackground">
+                <Background Type="CT_RAW" Source="4D000000" />
+            </Color>
+            <Color Name="StatusBarFillRestText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="StatusBarTextFillDisabled">
+                <Background Type="CT_RAW" Source="5DFFFFFF" />
+            </Color>
+        </Category>
+    </Theme>
 
 </Themes>
