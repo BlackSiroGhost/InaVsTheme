@@ -1,12 +1,18 @@
 ## Visual Studio
-.vs/
-bin/
-obj/
+**/.vs/
+**/bin/
+**/obj/
 *.user
 *.suo
 *.cache
 *.vsix
 packages/
+
+## VS 2026 per-instance / per-machine files
+*.slnx.user
+*.slnf
+.vssettings
+*.vssettings
 
 ## Build artifacts (extracted VSIX)
 /*.dll
